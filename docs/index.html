@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PirateMathSkills Support</title>
+  <style>
+    @font-face {
+      font-family: 'IMFellEnglish';
+      src: url('IMFellEnglish-Regular.ttf') format('truetype');
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #1a0f00;
+      background-image:
+        radial-gradient(ellipse at top, #2e1a00 0%, #1a0f00 60%);
+      color: #f0d89a;
+      font-family: 'IMFellEnglish', Georgia, serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px 60px;
+    }
+
+    .logo {
+      max-width: 340px;
+      width: 100%;
+      margin-bottom: 40px;
+      filter: drop-shadow(0 4px 18px rgba(255, 180, 0, 0.3));
+    }
+
+    .divider {
+      width: 260px;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #c8922a, transparent);
+      margin: 0 auto 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(200, 146, 42, 0.3);
+      border-radius: 12px;
+      padding: 36px 40px;
+      max-width: 560px;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      color: #e8c56a;
+      margin-bottom: 14px;
+      letter-spacing: 0.03em;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: #d4bc8a;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, #c8922a, #a06818);
+      color: #1a0f00;
+      font-family: 'IMFellEnglish', Georgia, serif;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      transition: opacity 0.2s;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    footer {
+      margin-top: 48px;
+      font-size: 0.85rem;
+      color: #7a6540;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo.png" alt="PirateMathSkills" class="logo">
+  <div class="divider"></div>
+
+  <div class="card">
+    <h2>Need Help?</h2>
+    <p>Have a question, spotted a bug, or just want to send a message in a bottle? Open a support request and we'll get back to ye.</p>
+    <a class="btn" href="https://github.com/hawkish/piratemathskills/issues/new">Open a Support Request</a>
+  </div>
+
+  <div class="card">
+    <h2>Privacy Policy</h2>
+    <p>PirateMathSkills collects absolutely no user data. All game settings are stored on your device and synced to iCloud if you have it enabled. The app uses no subscriptions.</p>
+  </div>
+
+  <footer>&copy; PirateMathSkills</footer>
+
+</body>
+</html>
