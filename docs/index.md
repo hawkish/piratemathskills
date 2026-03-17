@@ -1,4 +1,4 @@
-![PirateMathSkills Logo](gamelogo.svg)
+![PirateMathSkills Logo](logo.png)
 
 # PirateMathSkills Support
 
