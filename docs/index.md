@@ -1,3 +1,5 @@
+![PirateMathSkills Logo](gamelogo.svg)
+
 # PirateMathSkills Support
 
 Welcome to the support page for PirateMathSkills.
