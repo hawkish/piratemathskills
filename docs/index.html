@@ -85,6 +85,12 @@
       opacity: 0.85;
     }
 
+    .footnote {
+      margin-top: 16px;
+      font-size: 0.85rem;
+      color: #7a6540;
+    }
+
     footer {
       margin-top: 48px;
       font-size: 0.85rem;
@@ -100,9 +106,10 @@
   <div class="card">
     <h2>Need Help?</h2>
     <p>Have a question, spotted a bug, or just want to send a message in a bottle? Open a support request and we'll get back to ye.</p>
-    <a class="btn" href="https://github.com/hawkish/piratemathskills/issues/new">Open a Support Request</a>
-    <p style="margin-top: 16px; font-size: 0.95rem; color: #a08c60;">&#9733; Requires a GitHub account.</p>
+    <a class="btn" href="https://github.com/hawkish/piratemathskills/issues/new">Open a Support Request &#9733;</a>
+    <br>
     <a id="support-email" class="btn" href="#" style="margin-top: 12px;">Write a Support Mail</a>
+    <p class="footnote">&#9733; Requires a GitHub account.</p>
   </div>
 
   <script>
@@ -111,7 +118,6 @@
       var d = 'gmail.com';
       var el = document.getElementById('support-email');
       el.href = 'mailto:' + u + '@' + d;
-      el.textContent = u + '\u0040' + d;
     })();
   </script>
 
@@ -119,14 +125,14 @@
     <h2>Privacy Policy</h2>
     <p>All game settings are stored on your device and synced to iCloud if you have it enabled.</p>
 
-    <h2 style="margin-top: 28px;">Subscriptions &amp; Purchases</h2>
-    <p>PirateMathSkills offers optional in-app purchases managed through RevenueCat. To process and manage subscriptions, RevenueCat collects the following data on our behalf:</p>
+    <h2 style="margin-top: 28px;">In-App Purchases</h2>
+    <p>PirateMathSkills offers optional in-app purchases managed through RevenueCat. To process and manage purchases, RevenueCat collects the following data on our behalf:</p>
     <ul style="margin-top: 12px; padding-left: 20px; line-height: 1.9; color: #d4bc8a;">
       <li><strong>Purchase history</strong> — to verify and restore purchases</li>
       <li><strong>Device &amp; technical information</strong> — device type, OS version, and app version</li>
       <li><strong>User identifier</strong> — an anonymous ID to associate purchases with your account</li>
     </ul>
-    <p style="margin-top: 12px;">This data is used solely for subscription management and app functionality. RevenueCat does not sell your personal data. For more details, see <a href="https://www.revenuecat.com/privacy/" style="color: #e8c56a;">RevenueCat's Privacy Policy</a>.</p>
+    <p style="margin-top: 12px;">This data is used solely for purchase management and app functionality. RevenueCat does not sell your personal data. For more details, see <a href="https://www.revenuecat.com/privacy/" style="color: #e8c56a;">RevenueCat's Privacy Policy</a>.</p>
   </div>
 
   <footer>&copy; PirateMathSkills</footer>
